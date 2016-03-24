@@ -1,5 +1,3 @@
-<#include "/org/alfresco/components/component.head.inc">
-<!-- Audit Application dashlet -->
-<@script type="text/javascript" src="${page.url.context}/res/modules/simple-dialog.js"></@script>
-<@link rel="stylesheet" type="text/css" href="${page.url.context}/res/extras/components/dashlets/audit-application.css" />
-<@script type="text/javascript" src="${page.url.context}/res/extras/components/dashlets/audit-application.js"></@script>
+<#-- PLEASE NOTE:
+<#-- Use of .head.ftl WebScript files has now been deprecated from WebScripts that render Share Components.    -->
+<#-- Dependencies are now loaded through the use of the <@script> and <@link> tags in the main .html.ftl file.  -->
